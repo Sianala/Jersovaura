@@ -34,18 +34,3 @@ steps:
     restoreNugetPackages: true
     msbuildArchitecture: 'x64'
 
-- task: VSTest@2
-  inputs:
-    testSelector: 'testAssemblies'
-    testAssemblyVer2: |
-      Sianala Jersovaura/Library/bin/Debug/net5.0/Library.dll
-      Sianala Jersovaura/Library/bin/Debug/net5.0/Library.dll
-      Sianala Jersovaura/Library/obj/Debug/net5.0
-    searchFolder: '$(System.DefaultWorkingDirectory)'
-    vsTestVersion: '16.0'
-    dontDistribute: false
-    testRunTitle: 'Visual Studio Test'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-    failOnMinTestsNotRun: true
-    minimumExpectedTests: '4'
