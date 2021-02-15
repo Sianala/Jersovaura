@@ -1,0 +1,51 @@
+# .NET Desktop
+# Build and run tests for .NET Desktop or Windows classic desktop solutions.
+# Add steps that publish symbols, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
+
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: 'Sianala Jersovaura/Sianala Jersovaura.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '$(solution)'
+    feedsToUse: 'select'
+    vstsFeed: 'b24f458d-d0bc-4e93-8f66-c0a6929b7cf2'
+
+- task: VSBuild@1
+  inputs:
+    solution: '$(solution)'
+    vsVersion: '16.0'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+    clean: true
+    restoreNugetPackages: true
+    msbuildArchitecture: 'x64'
+
+- task: VSTest@2
+  inputs:
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: |
+      Sianala Jersovaura/Library/bin/Debug/net5.0/Library.dll
+      Sianala Jersovaura/Library/bin/Debug/net5.0/Library.dll
+      Sianala Jersovaura/Library/obj/Debug/net5.0
+    searchFolder: '$(System.DefaultWorkingDirectory)'
+    vsTestVersion: '16.0'
+    dontDistribute: false
+    testRunTitle: 'Visual Studio Test'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
+    failOnMinTestsNotRun: true
+    minimumExpectedTests: '4'
