@@ -12,7 +12,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.13",
+    "version": "1.2.6",
     "restore": {
       "projectUniqueName": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Library\\Library.csproj",
       "projectName": "Sianala.Jersovaura.Package",
