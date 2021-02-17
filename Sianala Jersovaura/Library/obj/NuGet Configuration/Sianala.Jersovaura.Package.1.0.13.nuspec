@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Sianala.Jersovaura.Package</id>
+    <version>1.0.13</version>
+    <authors>Sianala</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>e3d0be4e-e98b-4678-a75b-e77c7306af42.png</icon>
+    <projectUrl>https://jersovaura.sianala.cf/main</projectUrl>
+    <description>Sianala Jersovaura - public codes for best fast coding.</description>
+    <copyright>Copyright (c) Sianala, LLC.</copyright>
+    <tags>Sianala, LLC, C#, .NET,</tags>
+    <repository type="Azure DevOps" url="https://dev.azure.com/Sianala/_git/Jersovaura" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\bin\x64\NuGet Configuration\net5.0\Library.dll" target="lib\net5.0\Library.dll" />
+    <file src="C:\Users\kimsite\Downloads\e3d0be4e-e98b-4678-a75b-e77c7306af42.png" target="e3d0be4e-e98b-4678-a75b-e77c7306af42.png" />
+    <file src="C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\License.txt" target="License.txt" />
+  </files>
+</package>

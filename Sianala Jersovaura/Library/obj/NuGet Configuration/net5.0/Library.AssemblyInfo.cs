@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sianala, LLC")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("NuGet Configuration")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) Sianala, LLC.")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Sianala Jersovaura - public codes for best fast coding.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.12.6")]

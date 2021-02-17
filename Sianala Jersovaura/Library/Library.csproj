@@ -1,7 +1,40 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright (c) Sianala, LLC.</Copyright>
+    <Company>Sianala, LLC</Company>
+    <Authors>Sianala</Authors>
+    <Product>Sianala Jersovaura</Product>
+    <PackageId>Sianala.Jersovaura.Package</PackageId>
+    <Version>1.0.13</Version>
+    <Description>Sianala Jersovaura - public codes for best fast coding.</Description>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Sianala, LLC..pfx</AssemblyOriginatorKeyFile>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://jersovaura.sianala.cf/main</PackageProjectUrl>
+    <PackageIcon>e3d0be4e-e98b-4678-a75b-e77c7306af42.png</PackageIcon>
+    <RepositoryUrl>https://dev.azure.com/Sianala/_git/Jersovaura</RepositoryUrl>
+    <RepositoryType>Azure DevOps</RepositoryType>
+    <PackageTags>Sianala, LLC, C#, .NET,</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyVersion>1.0.13.1</AssemblyVersion>
+    <FileVersion>1.0.13.1</FileVersion>
+    <Configurations>Debug;Release;NuGet Configuration</Configurations>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\e3d0be4e-e98b-4678-a75b-e77c7306af42.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="License.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

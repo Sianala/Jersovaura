@@ -1,0 +1,12 @@
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\bin\x64\NuGet Configuration\net5.0\Library.deps.json
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\bin\x64\NuGet Configuration\net5.0\Library.dll
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\bin\x64\NuGet Configuration\net5.0\ref\Library.dll
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\bin\x64\NuGet Configuration\net5.0\Library.pdb
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.csprojAssemblyReference.cache
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.AssemblyInfoInputs.cache
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.AssemblyInfo.cs
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.dll
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\ref\Library.dll
+C:\Users\kimsite\source\repos\Jersovaura\Sianala Jersovaura\Library\obj\x64\NuGet Configuration\net5.0\Library.pdb

@@ -18,6 +18,10 @@ namespace Sianala.Jersovaura.Drive
         {
             System.IO.File.WriteAllText(Path, Content, Encoding);
         }
+        public static void Copy(string OldPath, string NewPath)
+        {
+            System.IO.File.Copy(OldPath, NewPath);
+        }
         public static void Read(string Path)
         {
             System.IO.File.ReadAllText(Path);

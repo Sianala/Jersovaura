@@ -12,13 +12,13 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.13",
+    "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Library\\Library.csproj",
-      "projectName": "Sianala.Jersovaura.Package",
-      "projectPath": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\kimsite\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Library\\obj\\",
+      "outputPath": "C:\\Users\\kimsite\\source\\repos\\Jersovaura\\Sianala Jersovaura\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
