@@ -40,10 +40,11 @@
       <PackagePath></PackagePath>
     </None>
   </ItemGroup>
-  <configuration>
-    <packageSources>
-      <clear />
-      <add key="Sianala" value="https://pkgs.dev.azure.com/Sianala/_packaging/Sianala/nuget/v3/index.json" />
-    </packageSources>
-  </configuration>
+  
 </Project>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="Sianala" value="https://pkgs.dev.azure.com/Sianala/_packaging/Sianala/nuget/v3/index.json" />
+  </packageSources>
+</configuration>
